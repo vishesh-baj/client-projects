@@ -13,7 +13,10 @@ const Contacts = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   return (
-    <div className="w-full h-auto gap-5 flex flex-col md:flex-row justify-between items-center px-10 py-10">
+    <div
+      id="contacts"
+      className="w-full h-auto gap-5 flex flex-col md:flex-row justify-between items-center px-10 py-10"
+    >
       <div className="flex flex-col w-full text-center md:text-left md:gap-10  md:w-1/2">
         <h1 className="text-4xl md:text-[100px] py-5 ">Contact Us</h1>
         <p>

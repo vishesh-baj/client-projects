@@ -4,7 +4,7 @@ import Carosal from "../components/Carosal";
 
 const AboutUs = () => {
   return (
-    <div className="w-full h-auto p-10 md:py-20 bg-primary gap-10 text-white flex flex-col md:flex-row  justify-around">
+    <div id="aboutus" className="w-full h-auto p-10 md:py-20 bg-white gap-10 text-sky-500 flex flex-col md:flex-row  justify-around">
       <div className="w-full flex flex-col gap-5 md:gap-10 md:w-1/2">
         <h1 className="text-4xl  md:text-[100px] ">About us</h1>
 
