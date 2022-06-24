@@ -3,7 +3,7 @@ import { GrFormClose } from "react-icons/gr";
 const LayoutWrapper = ({ children }) => {
   return (
     <div>
-      <div className="drawer h-full">
+      <div className="drawer h-full font-montserrat">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col ">
           <div className="w-full z-20 navbar bg-sky-600/90 fixed  text-white ">
