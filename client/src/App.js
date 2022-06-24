@@ -1,6 +1,6 @@
 import React from "react";
+import Footer from "./components/Footer";
 import LayoutWrapper from "./components/LayoutWrapper";
-import SectionWrapper from "./components/Section.component";
 import AboutUs from "./sections/AboutUs";
 import Contacts from "./sections/Contacts";
 import Hero from "./sections/Hero";
@@ -14,6 +14,7 @@ const App = () => {
         <Services />
         <AboutUs />
         <Contacts />
+        <Footer />
       </LayoutWrapper>
     </>
   );

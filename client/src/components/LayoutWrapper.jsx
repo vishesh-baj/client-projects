@@ -6,7 +6,7 @@ const LayoutWrapper = ({ children }) => {
       <div className="drawer h-full font-montserrat">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col ">
-          <div className="w-full z-20 navbar bg-sky-600/90 fixed  text-white ">
+          <div className="w-full z-50 navbar bg-white/90 fixed  text-black ">
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
                 <svg
