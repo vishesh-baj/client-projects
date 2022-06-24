@@ -1,14 +1,13 @@
 import React from "react";
 import LayoutWrapper from "./components/LayoutWrapper";
-import AboutUs from "./sections/AboutUs";
+import SectionWrapper from "./components/Section.component";
 import Hero from "./sections/Hero";
 
 const App = () => {
   return (
     <>
       <LayoutWrapper>
-        <Hero />
-        <AboutUs />
+        <Hero mainHeading={"Disha Helpline"} subHeading={"Mai Disha Huin"} />
       </LayoutWrapper>
     </>
   );

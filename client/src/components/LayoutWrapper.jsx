@@ -37,6 +37,7 @@ const LayoutWrapper = ({ children }) => {
             </div>
           </div>
           {/* Content */}
+
           {children}
         </div>
         <div className="drawer-side">
