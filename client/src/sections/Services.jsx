@@ -1,36 +1,69 @@
 import React from "react";
-import Card from "../components/Card";
 
 const Services = () => {
   return (
-    <div id="services" className="w-full h-auto py-10 bg-white">
-      <h1 className="text-4xl text-red-600 text-left pl-24 py-5 md:text-8xl">
-        Services
-      </h1>
-      <div className="flex flex-col md:flex-row  md:gap-5 gap-2 justify-center items-center px-2 md:px-5 py-5 ">
-        <Card
-          mainHeading={"Aayushman Card"}
-          subHeading="Aayushman card holders will get free treatment in all givernment affilieated hospitals."
-          backdropImg={"https://api.lorem.space/image/shoes?w=400&h=225"}
-        />
-        <Card
-          mainHeading={"Aayushman Card"}
-          subHeading="Aayushman card holders will get free treatment in all givernment affilieated hospitals."
-          backdropImg={"https://api.lorem.space/image/shoes?w=400&h=225"}
-        />
-        <Card
-          mainHeading={"Aayushman Card"}
-          subHeading="Aayushman card holders will get free treatment in all givernment affilieated hospitals."
-          backdropImg={"https://api.lorem.space/image/shoes?w=400&h=225"}
-        />
-        <Card
-          mainHeading={"Aayushman Card"}
-          subHeading="Aayushman card holders will get free treatment in all givernment affilieated hospitals."
-          backdropImg={"https://api.lorem.space/image/shoes?w=400&h=225"}
-        />
+    <div
+      id="services"
+      className="w-screen h-auto py-10   bg-white flex flex-col items-center justify-start"
+    >
+      <h1 className="py-10 text-4xl md:text-[100px] text-black">Services</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-5">
+        <div className="card w-96 bg-error text-primary-content">
+          <div className="card-body">
+            <h2 className="card-title">Card title!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn bg-rose-600 border-none">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-info text-primary-content">
+          <div className="card-body">
+            <h2 className="card-title">Card title!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn bg-rose-600 border-none">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-warning text-primary-content">
+          <div className="card-body">
+            <h2 className="card-title">Card title!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn bg-rose-600 border-none">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-primary text-primary-content">
+          <div className="card-body">
+            <h2 className="card-title">Card title!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn bg-rose-600 border-none">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-accent text-primary-content">
+          <div className="card-body">
+            <h2 className="card-title">Card title!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn bg-rose-600 border-none">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-success text-primary-content">
+          <div className="card-body">
+            <h2 className="card-title">Card title!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn bg-rose-600 border-none">Know More</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
-
 export default Services;

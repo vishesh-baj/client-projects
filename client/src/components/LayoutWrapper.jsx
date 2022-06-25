@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { GrFormClose } from "react-icons/gr";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-scroll";
 const LayoutWrapper = ({ children }) => {
@@ -43,7 +42,8 @@ const LayoutWrapper = ({ children }) => {
                 smooth={true}
                 spy={true}
               >
-                Disha Helpline <FaPlus className="ml-2 animate-pulse" />
+                Disha Helpline{" "}
+                <FaPlus className="ml-2 animate-pulse text-red-600" />
               </Link>
             </div>
             <div className="flex-none hidden lg:block">
@@ -102,10 +102,10 @@ const LayoutWrapper = ({ children }) => {
             htmlFor="my-drawer-3"
             className="drawer-overlay"
           ></label>
-          <ul className="menu py-20 overflow-y-auto w-80 bg-sky-600/90">
+          <ul className="menu py-20 overflow-y-auto w-80 bg-white/90">
             {/* TEXT XCOLOR NOT CHANGING */}
 
-            <li className="bg-sky-400 text-white text-lg">
+            <li className="bg-sky-400 text-black text-lg">
               <Link
                 onClick={() => setToggle(!toggle)}
                 spy={true}
